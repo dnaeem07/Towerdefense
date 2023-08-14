@@ -1,0 +1,493 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16273 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/HP/Downloads/Compressed/Tower-Defense-Tutorial-master/Tower-Defense-Tutorial-master/Tower Defense Unity Project
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+63112
+Successfully changed project path to: C:/Users/HP/Downloads/Compressed/Tower-Defense-Tutorial-master/Tower-Defense-Tutorial-master/Tower Defense Unity Project
+C:/Users/HP/Downloads/Compressed/Tower-Defense-Tutorial-master/Tower-Defense-Tutorial-master/Tower Defense Unity Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 100.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/HP/Downloads/Compressed/Tower-Defense-Tutorial-master/Tower-Defense-Tutorial-master/Tower Defense Unity Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 965M (ID=0x1427)
+    Vendor:   NVIDIA
+    VRAM:     4053 MB
+    Driver:   30.0.14.7219
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012289 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 105.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.901 seconds
+Domain Reload Profiling:
+	ReloadAssembly (902ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (639ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (156ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (374ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (76ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (106ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (130ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007857 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\HP\Downloads\Compressed\Tower-Defense-Tutorial-master\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HP\Downloads\Compressed\Tower-Defense-Tutorial-master\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.832 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6833ms)
+		BeginReloadAssembly (277ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (148ms)
+		EndReloadAssembly (6341ms)
+			LoadAssemblies (3397ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1158ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (1650ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (373ms)
+				ProcessInitializeOnLoadMethodAttributes (1134ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3271 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (55.3 KB). Loaded Objects now: 3734.
+Memory consumption went from 113.6 MB to 113.5 MB.
+Total: 4.700600 ms (FindLiveObjects: 0.404600 ms CreateObjectMapping: 0.387100 ms MarkObjects: 3.811700 ms  DeleteObjects: 0.096200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 430704.199474 seconds.
+  path: Assets/Icons/StandardTurretIcon.psd
+  artifactKey: Guid(dc74b87909039a84d8216a1e1f4fe9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/StandardTurretIcon.psd using Guid(dc74b87909039a84d8216a1e1f4fe9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2addc52f50830e36014f1c244dd0680') in 0.193840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Icons
+  artifactKey: Guid(a3183c2dbb6c7a24da55fa475183ff09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons using Guid(a3183c2dbb6c7a24da55fa475183ff09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e226f8db88289b571174a9c2cee2917') in 0.019046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(90a6abdcc14b816459861d65e2e1865d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(90a6abdcc14b816459861d65e2e1865d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c001f0c75a72c28529132dc6c7d0149') in 0.016062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/MainScene/LightingData.asset
+  artifactKey: Guid(1c2983d79c6883e4f9f6bcd196289c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainScene/LightingData.asset using Guid(1c2983d79c6883e4f9f6bcd196289c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is incompatible with the current Unity version. Please use Generate Lighting to rebuild the lighting data. Realtime Global Illumination cannot be used until the lighting data is rebuilt.
+Lighting data asset ‘LightingData’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
+ -> (artifact id: 'dc3a7fa0d5f4500dda11614321d91673') in 0.029586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/MainScene
+  artifactKey: Guid(9ac0897df0342084c84630a70b522dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainScene using Guid(9ac0897df0342084c84630a70b522dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '155260e27091c3d3450b57275c8ee3c9') in 0.018947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Icons/MissileLauncherIcon.png
+  artifactKey: Guid(62fb25501bc41d247ab4db84b757e526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/MissileLauncherIcon.png using Guid(62fb25501bc41d247ab4db84b757e526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a412a476a6b15f54dd1ae83b1a4d5ee') in 0.073378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(634c7c1757804834580f69812f35a895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(634c7c1757804834580f69812f35a895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44acf0f72274f0812b6d4dabb1a0bd90') in 0.016366 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008317 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\HP\Downloads\Compressed\Tower-Defense-Tutorial-master\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HP\Downloads\Compressed\Tower-Defense-Tutorial-master\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.514 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1516ms)
+		BeginReloadAssembly (176ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1206ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (313ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (613ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (47ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (378ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3265 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (24.6 KB). Loaded Objects now: 3743.
+Memory consumption went from 117.7 MB to 117.7 MB.
+Total: 5.755800 ms (FindLiveObjects: 0.437800 ms CreateObjectMapping: 0.233600 ms MarkObjects: 5.047100 ms  DeleteObjects: 0.036100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7263.580749 seconds.
+  path: Assets/Srudent Game-UI/Slices/talking screen/talking screen (2).png
+  artifactKey: Guid(cca3cb32eae41114393b5d93fec0e269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Srudent Game-UI/Slices/talking screen/talking screen (2).png using Guid(cca3cb32eae41114393b5d93fec0e269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002f252e2ba98531ecbc48b1a6189f89') in 0.105262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.898968 seconds.
+  path: Assets/Srudent Game-UI/Slices/win screen/w (2).png
+  artifactKey: Guid(13339d85aa01dca45a8aa025d6cff223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Srudent Game-UI/Slices/win screen/w (2).png using Guid(13339d85aa01dca45a8aa025d6cff223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05587e7ecacaf71aaf144d2115e19ef7') in 0.035564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Srudent Game-UI/Slices/win screen/w (4).png
+  artifactKey: Guid(8836b3084b36df342827193aa9bce2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Srudent Game-UI/Slices/win screen/w (4).png using Guid(8836b3084b36df342827193aa9bce2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4574b6b7a713948c9553ca332c11282') in 0.040375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Srudent Game-UI/Slices/win screen/w (6).png
+  artifactKey: Guid(a7cd8c44156e0f245be45ae64519186f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Srudent Game-UI/Slices/win screen/w (6).png using Guid(a7cd8c44156e0f245be45ae64519186f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54d8b9b522ef5e50ebc9d0fc01ece61') in 0.040427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Srudent Game-UI/Slices/win screen/w (5).png
+  artifactKey: Guid(f2fabf05fdbd29c40b68570475f51906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Srudent Game-UI/Slices/win screen/w (5).png using Guid(f2fabf05fdbd29c40b68570475f51906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caefcfe46624198d1016e1619b72183a') in 0.034925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.530866 seconds.
+  path: Assets/Srudent Game-UI/Slices/gameover screen/G (2).png
+  artifactKey: Guid(30de2d126cff51d47b8cdba5aa02f428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Srudent Game-UI/Slices/gameover screen/G (2).png using Guid(30de2d126cff51d47b8cdba5aa02f428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988606f94c284ed4eb90e8bb75cce61a') in 0.029735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Srudent Game-UI/Slices/gameover screen/G (4).png
+  artifactKey: Guid(3b149a3a8d932684b8b965cfca6a5af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Srudent Game-UI/Slices/gameover screen/G (4).png using Guid(3b149a3a8d932684b8b965cfca6a5af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aed0b136447b4af9a11bfd365ab5ba8') in 0.038968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.453828 seconds.
+  path: Assets/Srudent Game-UI/Slices/setting screen/s (2).png
+  artifactKey: Guid(1d3533e0a6c4204408b50425b7701db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Srudent Game-UI/Slices/setting screen/s (2).png using Guid(1d3533e0a6c4204408b50425b7701db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afdba7bf94ec1ae6e5646b0733fcab50') in 0.033399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Srudent Game-UI/Slices/setting screen/s (7).png
+  artifactKey: Guid(5dd9c21837e5ee645aaa131f77339780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Srudent Game-UI/Slices/setting screen/s (7).png using Guid(5dd9c21837e5ee645aaa131f77339780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8424bfb7849e400e187858fcfa760d7') in 0.042122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Srudent Game-UI/Slices/setting screen/s (4).png
+  artifactKey: Guid(2b85c8451728f414aaaa16ac1ed6cfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Srudent Game-UI/Slices/setting screen/s (4).png using Guid(2b85c8451728f414aaaa16ac1ed6cfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8955725d09fc9aadad22e6587ea966e') in 0.044210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.010854 seconds.
+  path: Assets/Srudent Game-UI/Slices/Shop screen/Shop (1).png
+  artifactKey: Guid(30cbf03a877a9d649ab0c7bcb7b4718b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Srudent Game-UI/Slices/Shop screen/Shop (1).png using Guid(30cbf03a877a9d649ab0c7bcb7b4718b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da35bb49cdcebdb0bb38a10306e72694') in 0.034291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Srudent Game-UI/Slices/Shop screen/Shop (2).png
+  artifactKey: Guid(7892d41d1c298474b983314132e7efef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Srudent Game-UI/Slices/Shop screen/Shop (2).png using Guid(7892d41d1c298474b983314132e7efef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd8fab0ddf7a4221e7afa6ec8150b3b1') in 0.042595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Srudent Game-UI/Slices/Shop screen/Shop (7).png
+  artifactKey: Guid(5a743a88dcf362944b8301959774ceac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Srudent Game-UI/Slices/Shop screen/Shop (7).png using Guid(5a743a88dcf362944b8301959774ceac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4f30c9e19e6999951b36000ef32328') in 0.043067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Srudent Game-UI/Slices/Shop screen/Shop (4).png
+  artifactKey: Guid(72510e97c1a934b449d5c3722fd5c2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Srudent Game-UI/Slices/Shop screen/Shop (4).png using Guid(72510e97c1a934b449d5c3722fd5c2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6745b4b48f68260bfac8d2c5998fb942') in 0.043266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Srudent Game-UI/Slices/Shop screen/Shop (5).png
+  artifactKey: Guid(211531ff82603a74d912abbee9f80ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Srudent Game-UI/Slices/Shop screen/Shop (5).png using Guid(211531ff82603a74d912abbee9f80ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74709fc8292d6f89345e2acb0bef4548') in 0.040224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.600135 seconds.
+  path: Assets/Srudent Game-UI/Slices/loading screen/main screen (1).png
+  artifactKey: Guid(87c1356b5b412b04ebca94351e3c3498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Srudent Game-UI/Slices/loading screen/main screen (1).png using Guid(87c1356b5b412b04ebca94351e3c3498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5146622a69e5d9022411ded2a38d4c9') in 0.053622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Srudent Game-UI/Slices/loading screen/main screen (3).png
+  artifactKey: Guid(66945441a7e668e4699c1983d762ee64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Srudent Game-UI/Slices/loading screen/main screen (3).png using Guid(66945441a7e668e4699c1983d762ee64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5b29d7832e4dcaeb24226b75585944') in 0.042977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Srudent Game-UI/Slices/loading screen/main screen (5).png
+  artifactKey: Guid(a68eed8c5b56aca4fb63f74659b4509a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Srudent Game-UI/Slices/loading screen/main screen (5).png using Guid(a68eed8c5b56aca4fb63f74659b4509a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61874a5f87b0e0ecd1ba551f88ae081f') in 0.035117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.405726 seconds.
+  path: Assets/Srudent Game-UI/Slices/loading screen/main screen (1).png
+  artifactKey: Guid(87c1356b5b412b04ebca94351e3c3498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Srudent Game-UI/Slices/loading screen/main screen (1).png using Guid(87c1356b5b412b04ebca94351e3c3498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6396f6f8c396499f371ec43bf1c84ec') in 0.079123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Srudent Game-UI/Slices/loading screen/main screen (4).png
+  artifactKey: Guid(905d03b3af2696d489af99572e5418dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Srudent Game-UI/Slices/loading screen/main screen (4).png using Guid(905d03b3af2696d489af99572e5418dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729cec97b99970a49ff3b552ad9d485f') in 0.049266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Srudent Game-UI/Slices/loading screen/main screen (3).png
+  artifactKey: Guid(66945441a7e668e4699c1983d762ee64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Srudent Game-UI/Slices/loading screen/main screen (3).png using Guid(66945441a7e668e4699c1983d762ee64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd653ef01bd09b1be51aa12369b683264') in 0.033651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Srudent Game-UI/Slices/loading screen/main screen (2).png
+  artifactKey: Guid(9ab6ca6022fbd2548859bfab28f646f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Srudent Game-UI/Slices/loading screen/main screen (2).png using Guid(9ab6ca6022fbd2548859bfab28f646f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0c11521e63487c27396f0e0afdf91d') in 0.041764 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007867 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\HP\Downloads\Compressed\Tower-Defense-Tutorial-master\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HP\Downloads\Compressed\Tower-Defense-Tutorial-master\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.345 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1346ms)
+		BeginReloadAssembly (206ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (967ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (347ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (402ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (251ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3266 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (24.6 KB). Loaded Objects now: 3757.
+Memory consumption went from 117.8 MB to 117.8 MB.
+Total: 3.606600 ms (FindLiveObjects: 0.311900 ms CreateObjectMapping: 0.200100 ms MarkObjects: 3.062000 ms  DeleteObjects: 0.031600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2769.541571 seconds.
+  path: Assets/Srudent Game-UI/Slices/Shop screen/Shop (1).png
+  artifactKey: Guid(30cbf03a877a9d649ab0c7bcb7b4718b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Srudent Game-UI/Slices/Shop screen/Shop (1).png using Guid(30cbf03a877a9d649ab0c7bcb7b4718b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6729711511a07865052f042b3becef39') in 0.162977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Srudent Game-UI/Slices/Shop screen/Shop (2).png
+  artifactKey: Guid(7892d41d1c298474b983314132e7efef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Srudent Game-UI/Slices/Shop screen/Shop (2).png using Guid(7892d41d1c298474b983314132e7efef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6496f7a0ed1aaabf9bf1d82924592b3b') in 0.031856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Srudent Game-UI/Slices/Shop screen/Shop (8).png
+  artifactKey: Guid(3161226850f7f2043bbc2d32f1353a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Srudent Game-UI/Slices/Shop screen/Shop (8).png using Guid(3161226850f7f2043bbc2d32f1353a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6d908d69106f92cf60c7cae65a4f38') in 0.052797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Srudent Game-UI/Slices/Shop screen/Shop (7).png
+  artifactKey: Guid(5a743a88dcf362944b8301959774ceac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Srudent Game-UI/Slices/Shop screen/Shop (7).png using Guid(5a743a88dcf362944b8301959774ceac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52bde5f9f1b6b9b5da12501de11cc37') in 0.040774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Srudent Game-UI/Slices/Shop screen/Shop (4).png
+  artifactKey: Guid(72510e97c1a934b449d5c3722fd5c2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Srudent Game-UI/Slices/Shop screen/Shop (4).png using Guid(72510e97c1a934b449d5c3722fd5c2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1135b599c6a1ac78ff14d969dc1acd8d') in 0.059649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Srudent Game-UI/Slices/Shop screen/Shop (5).png
+  artifactKey: Guid(211531ff82603a74d912abbee9f80ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Srudent Game-UI/Slices/Shop screen/Shop (5).png using Guid(211531ff82603a74d912abbee9f80ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf61976c4961e4253c7f13d5d98fb8f5') in 0.042160 seconds 
