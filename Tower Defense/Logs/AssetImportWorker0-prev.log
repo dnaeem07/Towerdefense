@@ -15,7 +15,7 @@ C:/Users/HP/Documents/GitHub/Towerdefense/Tower Defense
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55622
+55548
 Successfully changed project path to: C:/Users/HP/Documents/GitHub/Towerdefense/Tower Defense
 C:/Users/HP/Documents/GitHub/Towerdefense/Tower Defense
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/HP/Documents/GitHub/Towerdefense/Tower Defense
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 145.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 115.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -63,47 +63,785 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.025231 seconds.
+Registered in 0.013029 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 334.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 125.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.242 seconds
+- Completed reload, in  0.963 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2246ms)
-		BeginReloadAssembly (333ms)
+	ReloadAssembly (963ms)
+		BeginReloadAssembly (117ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1632ms)
-			LoadAssemblies (330ms)
+		EndReloadAssembly (685ms)
+			LoadAssemblies (115ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (251ms)
+			SetupTypeCache (159ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (1152ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (408ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (166ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (335ms)
-				BeforeProcessingInitializeOnLoad (6ms)
-				ProcessInitializeOnLoadAttributes (423ms)
-				ProcessInitializeOnLoadMethodAttributes (219ms)
+				InitializePlatformSupportModulesInManaged (79ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (125ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (133ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.018432 seconds.
-Android Extension - Scanning For ADB Devices 7679 ms
+Registered in 0.008581 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\HP\Documents\GitHub\Towerdefense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HP\Documents\GitHub\Towerdefense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.588 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1590ms)
+		BeginReloadAssembly (335ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (166ms)
+		EndReloadAssembly (1108ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (351ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (497ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (301ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3312 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (55.6 KB). Loaded Objects now: 3801.
+Memory consumption went from 203.0 MB to 202.9 MB.
+Total: 4.618600 ms (FindLiveObjects: 0.427100 ms CreateObjectMapping: 0.350300 ms MarkObjects: 3.668500 ms  DeleteObjects: 0.170200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 306595.221084 seconds.
+  path: Assets/Prefabs/LaserBeamer.prefab
+  artifactKey: Guid(c51804966ab0f8544b70b0e9dcae1623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaserBeamer.prefab using Guid(c51804966ab0f8544b70b0e9dcae1623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6248031d2182229e35fffd0e45ea53f') in 0.203014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Prefabs/MissileLauncher.prefab
+  artifactKey: Guid(28886474c13dfff4cb183350df126081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MissileLauncher.prefab using Guid(28886474c13dfff4cb183350df126081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123d73142dd6a4c746e1fc5367ca1061') in 0.145431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Prefabs/StandardTurret.prefab
+  artifactKey: Guid(64f2ae8c83ee6bb49a47a2d3f43d307e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/StandardTurret.prefab using Guid(64f2ae8c83ee6bb49a47a2d3f43d307e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47258bd3e7ee8ba9a8291a7b6752b472') in 0.070469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.599170 seconds.
+  path: Assets/Prefabs/StandardTurret.prefab
+  artifactKey: Guid(64f2ae8c83ee6bb49a47a2d3f43d307e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/StandardTurret.prefab using Guid(64f2ae8c83ee6bb49a47a2d3f43d307e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54545b59175c86eaae3b9bbfd45b7ce') in 0.049591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.497253 seconds.
+  path: Assets/ui/Slices/Nodes.controller
+  artifactKey: Guid(61530366242586f4b909229acfde2af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ui/Slices/Nodes.controller using Guid(61530366242586f4b909229acfde2af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c39f02974cf88f0e1731427e85fa96') in 0.027109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.086205 seconds.
+  path: Assets/Prefabs/StandardTurret_Upgraded.prefab
+  artifactKey: Guid(af7198115d2e53d48a7310dc6579fdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/StandardTurret_Upgraded.prefab using Guid(af7198115d2e53d48a7310dc6579fdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c34abdb4fd298dab87cea1adf63f02') in 0.059199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.484463 seconds.
+  path: Assets/Prefabs/MissileLauncher.prefab
+  artifactKey: Guid(28886474c13dfff4cb183350df126081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MissileLauncher.prefab using Guid(28886474c13dfff4cb183350df126081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a94681ed10ef33335dd72f55a5aa18') in 0.048917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.429643 seconds.
+  path: Assets/Prefabs/MissileLauncher_Upgraded.prefab
+  artifactKey: Guid(45e67aee8990d9642b349d207af550ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MissileLauncher_Upgraded.prefab using Guid(45e67aee8990d9642b349d207af550ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32e3cbe1aecb82b49704bc4422dbffa') in 0.059187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.943963 seconds.
+  path: Assets/Prefabs/LaserBeamer.prefab
+  artifactKey: Guid(c51804966ab0f8544b70b0e9dcae1623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaserBeamer.prefab using Guid(c51804966ab0f8544b70b0e9dcae1623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc81fdc89e3eb5d3c545f7656d211e5') in 0.021233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.727724 seconds.
+  path: Assets/Prefabs/LaserBeamer.prefab
+  artifactKey: Guid(c51804966ab0f8544b70b0e9dcae1623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LaserBeamer.prefab using Guid(c51804966ab0f8544b70b0e9dcae1623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b8bedcd2894f4762027b37ed8df162') in 0.025274 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006896 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\HP\Documents\GitHub\Towerdefense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HP\Documents\GitHub\Towerdefense\Tower Defense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.573 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1573ms)
+		BeginReloadAssembly (187ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1234ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (338ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (593ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (346ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3299 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (25.4 KB). Loaded Objects now: 3812.
+Memory consumption went from 206.5 MB to 206.5 MB.
+Total: 4.458800 ms (FindLiveObjects: 0.368100 ms CreateObjectMapping: 0.217100 ms MarkObjects: 3.815900 ms  DeleteObjects: 0.056400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 156.943153 seconds.
+  path: Assets/Scripts/MainMenu.cs
+  artifactKey: Guid(0835e072f41352046a5da85ac41d686a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MainMenu.cs using Guid(0835e072f41352046a5da85ac41d686a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595be1ef49f16e0d9a677fe940eeee56') in 0.021935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.260198 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style5/Style5JetEngine1.prefab
+  artifactKey: Guid(a6849a28ad92cf2449c2eb5e54c3289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style5/Style5JetEngine1.prefab using Guid(a6849a28ad92cf2449c2eb5e54c3289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb155b83bdf19104a70f971af9fb24d') in 0.094746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.246504 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style4/Style4JetEngine1.prefab
+  artifactKey: Guid(b4c551b959ce3c9438a66c0f790e1cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style4/Style4JetEngine1.prefab using Guid(b4c551b959ce3c9438a66c0f790e1cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e5b708eba8dd0e23c0ba39314d1548') in 0.024631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.134852 seconds.
+  path: Assets/GamedevDreamer/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa3e5703bd8aeb1de3096cb1709a5c8') in 0.012011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.103428 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style9/Style9JetEngine1.prefab
+  artifactKey: Guid(a979439e920da484e8080c691521647c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style9/Style9JetEngine1.prefab using Guid(a979439e920da484e8080c691521647c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '696298c4ab52945f3f4dd8a6efabae1d') in 0.023853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.345935 seconds.
+  path: Assets/3dmodels/ENV/texture/brown soil_normal 1.jpg
+  artifactKey: Guid(9bb9a5d0b77e6e94a982ccfc4559afb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dmodels/ENV/texture/brown soil_normal 1.jpg using Guid(9bb9a5d0b77e6e94a982ccfc4559afb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9af69294f138cdb66b94ee73986ca2c') in 0.043163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.170955 seconds.
+  path: Assets/Enemies/Simple/Enemy_Simple.prefab
+  artifactKey: Guid(e28a0c6f43750a8418e0d321b41b5f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Simple/Enemy_Simple.prefab using Guid(e28a0c6f43750a8418e0d321b41b5f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0fbf45c10770fbde47600435fed0beb') in 0.091668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039856 seconds.
+  path: Assets/3dmodels/ENV/texture/M_RoughRock03_basecolor 1.jpg
+  artifactKey: Guid(45fe8cec3f628c242b9046c85dad9bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dmodels/ENV/texture/M_RoughRock03_basecolor 1.jpg using Guid(45fe8cec3f628c242b9046c85dad9bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6288263ed109f9673f44a3bb7c2f0a0') in 0.022903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040153 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style8
+  artifactKey: Guid(9aa4c1a8e464e294b87b593efedd65d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style8 using Guid(9aa4c1a8e464e294b87b593efedd65d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a2134f4a85539de6f16c72190762e4') in 0.016789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.103232 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style7/Style7JetEngine4.prefab
+  artifactKey: Guid(41879cdbd44ae60448c8395d65c80949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style7/Style7JetEngine4.prefab using Guid(41879cdbd44ae60448c8395d65c80949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa970fe2261606d93f8251612c4f123c') in 0.029553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.206152 seconds.
+  path: Assets/3dmodels/ENV/texture/Stone3_Normal 1.jpg
+  artifactKey: Guid(d746b823ea545be438c35d5a7511ba02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dmodels/ENV/texture/Stone3_Normal 1.jpg using Guid(d746b823ea545be438c35d5a7511ba02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95f7f4d38eca881be48c83a297483e4') in 0.028403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.174428 seconds.
+  path: Assets/Enemies/Fast/medium skeleton.prefab
+  artifactKey: Guid(2ba69eb612ea87c4a98df5616871d0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Fast/medium skeleton.prefab using Guid(2ba69eb612ea87c4a98df5616871d0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c855cc0644f202e722aa611a21775f') in 0.060576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.654445 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style7/Style7JetEngine.prefab
+  artifactKey: Guid(3ade2f2783050944f9a492fcf75ae655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style7/Style7JetEngine.prefab using Guid(3ade2f2783050944f9a492fcf75ae655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4afe1496469892948e5be470641d1c') in 0.025618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018383 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style8/Style8JetEngine1.prefab
+  artifactKey: Guid(90fa4ffac23cb3a4fb36c9f8c774b514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style8/Style8JetEngine1.prefab using Guid(90fa4ffac23cb3a4fb36c9f8c774b514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f99a5a3c3fa1d478bf18d219cba209') in 0.023505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.234632 seconds.
+  path: Assets/GamedevDreamer/ReadMe.pdf
+  artifactKey: Guid(f3cf83591c3ca1b47b1457f089caadb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/ReadMe.pdf using Guid(f3cf83591c3ca1b47b1457f089caadb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c978b88c11d32a840f6c0757228253b8') in 0.016253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.665092 seconds.
+  path: Assets/Enemies/Fast/easy skelton.prefab
+  artifactKey: Guid(c4f9e1dbcb5055a4b90e4da11accd9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Fast/easy skelton.prefab using Guid(c4f9e1dbcb5055a4b90e4da11accd9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b544b91105b69a91814a18000dd8285f') in 0.052206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.221327 seconds.
+  path: Assets/3dmodels/ENV/texture/Stone3_Roughness 1.jpg
+  artifactKey: Guid(6e8daccea9e93e84688870852e762958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dmodels/ENV/texture/Stone3_Roughness 1.jpg using Guid(6e8daccea9e93e84688870852e762958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c2af1ea0ab0f587b1b4c0dc92da952') in 0.031834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044807 seconds.
+  path: Assets/GamedevDreamer/Sprites/Spaceship.png
+  artifactKey: Guid(cd82491a1562f894bb043cae1a9a8392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Sprites/Spaceship.png using Guid(cd82491a1562f894bb043cae1a9a8392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb474bbb68945f52ca09a9264094342') in 0.482671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017333 seconds.
+  path: Assets/Scripts/EnemyMovement.cs
+  artifactKey: Guid(ecf9e892adc4b4f4884d0344afe8a24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyMovement.cs using Guid(ecf9e892adc4b4f4884d0344afe8a24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0036ff98da9fcee145f638f109018d8e') in 0.012289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.144934 seconds.
+  path: Assets/3dmodels/ENV/texture/stonewall_normal 1.jpg
+  artifactKey: Guid(4c3bdee3b7ce47c4cb1715e4a5218419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dmodels/ENV/texture/stonewall_normal 1.jpg using Guid(4c3bdee3b7ce47c4cb1715e4a5218419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02b8c2dcc74c9b2065758a1078c6e3f') in 0.037580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.106902 seconds.
+  path: Assets/3dmodels/ENV/texture/brown soil_albedo 1.jpg
+  artifactKey: Guid(471048c33a8f6d145a0c8996d4865dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dmodels/ENV/texture/brown soil_albedo 1.jpg using Guid(471048c33a8f6d145a0c8996d4865dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1c75ba736321aa6ca10a42d1d3cb7a') in 0.057907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.269156 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style9/Style9JetEngine.prefab
+  artifactKey: Guid(f5e867c9cd96df3488c4cf23d8387fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style9/Style9JetEngine.prefab using Guid(f5e867c9cd96df3488c4cf23d8387fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f428412a96d33190dbb023b7fc245a') in 0.024128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.339768 seconds.
+  path: Assets/3dmodels/ENV/texture/stonewall_basecolor 1.jpg
+  artifactKey: Guid(3a8ec72c44b808b4183db7ea0746078c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dmodels/ENV/texture/stonewall_basecolor 1.jpg using Guid(3a8ec72c44b808b4183db7ea0746078c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1055c79abab80f21016cde515a0290e') in 0.025876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.113199 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style3
+  artifactKey: Guid(30f7b74955716044bb9be346a681f14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style3 using Guid(30f7b74955716044bb9be346a681f14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61951cc5d1c9c0bc4db446190fd37a60') in 0.014257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.256492 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style6/Style6JetEngine4.prefab
+  artifactKey: Guid(303fe98f532f0e94ab2a1b933ee2528f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style6/Style6JetEngine4.prefab using Guid(303fe98f532f0e94ab2a1b933ee2528f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24799f012b1e5cd9fedaf4de4d8d98de') in 0.025499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.433018 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style5
+  artifactKey: Guid(447d37c42d7b173479e1d1e35e22ce0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style5 using Guid(447d37c42d7b173479e1d1e35e22ce0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd1a3ffbcdb758777ca2e8631fea06a') in 0.014529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010818 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style6/Style6JetEngine.prefab
+  artifactKey: Guid(123fd6c3d10466b40a15bd68d43afa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style6/Style6JetEngine.prefab using Guid(123fd6c3d10466b40a15bd68d43afa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64128d0956436c17c2cd6d3981f0ca11') in 0.024593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.647731 seconds.
+  path: Assets/3dmodels/ENV/texture/M_RoughRock03_roughness 1.jpg
+  artifactKey: Guid(484f809412064d64aa0f2c4df7936b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dmodels/ENV/texture/M_RoughRock03_roughness 1.jpg using Guid(484f809412064d64aa0f2c4df7936b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b697b5e1d6744ac24bafd98ad4951be9') in 0.022905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.148311 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style5/Style5JetEngine4.prefab
+  artifactKey: Guid(f439ea7517964864d9804c709c0f12d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style5/Style5JetEngine4.prefab using Guid(f439ea7517964864d9804c709c0f12d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6419539d5da1c546735f91a8cf5b4ece') in 0.023287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001054 seconds.
+  path: Assets/3dmodels/ENV/texture/M_RoughRock02_roughness 1.jpg
+  artifactKey: Guid(c740689b5324c0d418761fe199a2d811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dmodels/ENV/texture/M_RoughRock02_roughness 1.jpg using Guid(c740689b5324c0d418761fe199a2d811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd203ae57101f0d7a8f396019eef46f4a') in 0.022954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053691 seconds.
+  path: Assets/Scenes/Level03.unity
+  artifactKey: Guid(d0cc3d31ba938bc41b7d995c0ede392e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level03.unity using Guid(d0cc3d31ba938bc41b7d995c0ede392e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254d9ca4efae732125a1d5318caeca66') in 0.014315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001822 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style4/Style4JetEngine2.prefab
+  artifactKey: Guid(46121eb33e864794db51e250921bf7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style4/Style4JetEngine2.prefab using Guid(46121eb33e864794db51e250921bf7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a450dd850ea61ce832ff9cba91b3a9') in 0.022513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.369980 seconds.
+  path: Assets/3dmodels/V6_envi_Stage_2.fbx
+  artifactKey: Guid(953a34842bcd4694092feb0ad17e6d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dmodels/V6_envi_Stage_2.fbx using Guid(953a34842bcd4694092feb0ad17e6d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2267cedfc43e0ce77f0a6b8ad572b8b1') in 1.517432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style5/Style5JetEngine3.prefab
+  artifactKey: Guid(4abce29b3b76bb54a92533173489e18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style5/Style5JetEngine3.prefab using Guid(4abce29b3b76bb54a92533173489e18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ef22fefd41cfefa1307d1887decb54') in 0.024620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.284938 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style8/Style8JetEngine4.prefab
+  artifactKey: Guid(ee08ac27612354742b407c9a28c1ecc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style8/Style8JetEngine4.prefab using Guid(ee08ac27612354742b407c9a28c1ecc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9d26c65893b60cfb4414b7f13b7915') in 0.024284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.303791 seconds.
+  path: Assets/3dmodels/ENV/texture/stonewall_roughness 1.jpg
+  artifactKey: Guid(a109e8625e9c0994b956c003bd9221d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dmodels/ENV/texture/stonewall_roughness 1.jpg using Guid(a109e8625e9c0994b956c003bd9221d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25da6c96f358dfe62ab3e06b1384acb') in 0.027593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025544 seconds.
+  path: Assets/Scenes/Level02.unity
+  artifactKey: Guid(ddcff09af3b51044fbfea9327e5e9272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level02.unity using Guid(ddcff09af3b51044fbfea9327e5e9272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153d049fd36658643b207009d4da6ba1') in 0.011454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044499 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style3/Style3JetEngine2.prefab
+  artifactKey: Guid(73c908857232de2498f93092d5a59c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style3/Style3JetEngine2.prefab using Guid(73c908857232de2498f93092d5a59c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff3aee095831463b8d6907ed040bf20') in 0.023897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.158223 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style9/Style9JetEngine4.prefab
+  artifactKey: Guid(9d5b94e0e0714eb4faff2212e1b2f8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style9/Style9JetEngine4.prefab using Guid(9d5b94e0e0714eb4faff2212e1b2f8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3fccf224be2d9edc50ee3538ac44d56') in 0.023029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043805 seconds.
+  path: Assets/Enemies/Simple/medium goblin.prefab
+  artifactKey: Guid(71244e38745dd5a4c92db0f5023f798f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Simple/medium goblin.prefab using Guid(71244e38745dd5a4c92db0f5023f798f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781260ff8800765adc33eed56071c872') in 0.057098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026477 seconds.
+  path: Assets/3dmodels/ENV/texture/Stone3_Color 1.jpg
+  artifactKey: Guid(0b93c523d00c25548a3ba235535fd408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dmodels/ENV/texture/Stone3_Color 1.jpg using Guid(0b93c523d00c25548a3ba235535fd408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef50d2d453b23c5775625e3b62fa2e4') in 0.025489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.156274 seconds.
+  path: Assets/Enemies/Tough/Enemy_Tough.prefab
+  artifactKey: Guid(e9a85746bae401841b80a742cdb9a891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Tough/Enemy_Tough.prefab using Guid(e9a85746bae401841b80a742cdb9a891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e034f57f73dad375f4dd99ea80a90f') in 0.045225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023094 seconds.
+  path: Assets/3dmodels/ENV/texture/Ground_diffuse.png
+  artifactKey: Guid(d3e3cb43099d01246a7dd801b234a9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dmodels/ENV/texture/Ground_diffuse.png using Guid(d3e3cb43099d01246a7dd801b234a9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165ae3df536d7f608e3b5bc1bd48b93f') in 0.021649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.074244 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style3/Style3JetEngine1.prefab
+  artifactKey: Guid(da090be4d4561c642b0adec43fb460c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style3/Style3JetEngine1.prefab using Guid(da090be4d4561c642b0adec43fb460c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d61bc37c5973efdc0ef285e7d85800') in 0.023747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.439134 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style6/Style6JetEngine1.prefab
+  artifactKey: Guid(54cd1d70dbdbe014ebf7a09f38613713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style6/Style6JetEngine1.prefab using Guid(54cd1d70dbdbe014ebf7a09f38613713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f71f4260a12d49906ab1d76ff441bd2') in 0.024213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.377239 seconds.
+  path: Assets/3dmodels/ENV/texture/brown soil_roughness 1.jpg
+  artifactKey: Guid(076e4d68a2964234ab11db27fd17fe18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dmodels/ENV/texture/brown soil_roughness 1.jpg using Guid(076e4d68a2964234ab11db27fd17fe18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b70f6635f42b272db388383918a7f30') in 0.029341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.085126 seconds.
+  path: Assets/3dmodels/ENV/texture/M_RoughRock02_basecolor 1.jpg
+  artifactKey: Guid(bbce68bbde6fd1b4a90f364d0247a17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dmodels/ENV/texture/M_RoughRock02_basecolor 1.jpg using Guid(bbce68bbde6fd1b4a90f364d0247a17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3079d6bfe26ccd174a6d194c798c1da') in 0.024940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000929 seconds.
+  path: Assets/Enemies/Simple/hard goblin.prefab
+  artifactKey: Guid(9e977ebed952a1c45b42b15ddab43161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Simple/hard goblin.prefab using Guid(9e977ebed952a1c45b42b15ddab43161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d13baf2d7d42318c66e7028487f20f1') in 0.048298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002071 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style5/Style5JetEngine.prefab
+  artifactKey: Guid(3579cdc119d74fd45b2d98b79529301f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style5/Style5JetEngine.prefab using Guid(3579cdc119d74fd45b2d98b79529301f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad59a19f559421e36a7f8f8e6760321') in 0.020939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.205154 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style5/Style5JetEngine2.prefab
+  artifactKey: Guid(bc1cdb73199599d43a33522f9be06d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style5/Style5JetEngine2.prefab using Guid(bc1cdb73199599d43a33522f9be06d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc512e27b85be1ae85eb6bcec312dfde') in 0.021339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021722 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style3/Style3JetEngine3.prefab
+  artifactKey: Guid(132e5f3e80474c544b5912acedb2bdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style3/Style3JetEngine3.prefab using Guid(132e5f3e80474c544b5912acedb2bdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6852e24525a83189d0fcabdacc2fc3') in 0.023783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.423658 seconds.
+  path: Assets/3dmodels/ENV/texture/M_RoughRock01_basecolor 1.jpg
+  artifactKey: Guid(760de1abea699dd4b9a0159ad6373e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dmodels/ENV/texture/M_RoughRock01_basecolor 1.jpg using Guid(760de1abea699dd4b9a0159ad6373e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fada1d266f05340fc935606df2537dbb') in 0.022169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.334634 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style3/Style3JetEngine4.prefab
+  artifactKey: Guid(28a46ab34fa19c244955573a5ca439b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style3/Style3JetEngine4.prefab using Guid(28a46ab34fa19c244955573a5ca439b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc91b0d64960dcfc5828eebfa92d7a8') in 0.020726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.181554 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style9/Style9JetEngine3.prefab
+  artifactKey: Guid(13ba7a3614428b9439589c614a01d868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style9/Style9JetEngine3.prefab using Guid(13ba7a3614428b9439589c614a01d868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9145bf29999535d824484fae22a98efb') in 0.023553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.251321 seconds.
+  path: Assets/3dmodels/ENV/texture/House_02 1.png
+  artifactKey: Guid(36aa1449d923bcc4d943143e055c8d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dmodels/ENV/texture/House_02 1.png using Guid(36aa1449d923bcc4d943143e055c8d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248b517cdc91a8feec69d10483d08e44') in 0.023558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037553 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style7/Style7JetEngine1.prefab
+  artifactKey: Guid(223579e7485e0b74d80c8b387c6afebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style7/Style7JetEngine1.prefab using Guid(223579e7485e0b74d80c8b387c6afebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db17d763a2e4b13b68e6df3629f9b656') in 0.022292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050765 seconds.
+  path: Assets/3dmodels/ENV/texture/M_RoughRock01_roughness 1.jpg
+  artifactKey: Guid(67e30fc2953a159459b0ca7decd28574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dmodels/ENV/texture/M_RoughRock01_roughness 1.jpg using Guid(67e30fc2953a159459b0ca7decd28574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62edebcd751e0745e8b02dce5527303') in 0.024298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022942 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style6
+  artifactKey: Guid(ecdb51cb0e10d7547ba1b9894238b55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style6 using Guid(ecdb51cb0e10d7547ba1b9894238b55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d07c7128c1610225ab12f93a0470cad') in 0.012546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.144446 seconds.
+  path: Assets/Enemies/Tough/medium troll.prefab
+  artifactKey: Guid(91f6397ed413fbc43b507e63d6821992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Tough/medium troll.prefab using Guid(91f6397ed413fbc43b507e63d6821992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb321c939b3eac493c3c4ac47e311d9') in 0.047115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.419102 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style8/Style8JetEngine2.prefab
+  artifactKey: Guid(9d1d273dfcd349143bd590329ef193a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style8/Style8JetEngine2.prefab using Guid(9d1d273dfcd349143bd590329ef193a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87daa70c794d8241386057b0fa0d9f51') in 0.023456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.237937 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style4/Style4JetEngine.prefab
+  artifactKey: Guid(5acad9317771040489d7fe6dfd370042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style4/Style4JetEngine.prefab using Guid(5acad9317771040489d7fe6dfd370042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb4db06550c3a99564a11c9b2e89ce8') in 0.024096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.112725 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style9
+  artifactKey: Guid(9b961038ce032714d8dbe611b1f2db9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style9 using Guid(9b961038ce032714d8dbe611b1f2db9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4dee2cd481983bbec5dd90d6c4a3f5') in 0.015525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.261863 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style7/Style7JetEngine2.prefab
+  artifactKey: Guid(4cd6456bab5e5ff46a6ce01d1a6e0d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style7/Style7JetEngine2.prefab using Guid(4cd6456bab5e5ff46a6ce01d1a6e0d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e629e150b83899bcc1aa56f69d817e') in 0.024281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.075532 seconds.
+  path: Assets/Scripts/castleeffect.cs
+  artifactKey: Guid(0a55417f23495a342908edea36929d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/castleeffect.cs using Guid(0a55417f23495a342908edea36929d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997f5f5ddacc6ca342c4af62d732af91') in 0.013354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.114141 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR2 Firewall A.prefab
+  artifactKey: Guid(2af5562ce69fc2d448481a1587a352a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR2 Firewall A.prefab using Guid(2af5562ce69fc2d448481a1587a352a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd056ad723a1cec2df90ef6da6db985') in 0.054459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004250 seconds.
+  path: Assets/GamedevDreamer/Sprites
+  artifactKey: Guid(3604b46506c25ee4c86bedc73b37368d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Sprites using Guid(3604b46506c25ee4c86bedc73b37368d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d4d2c082912cf33e0e4aa392714405') in 0.012937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012534 seconds.
+  path: Assets/Enemies/Fast/hard skeleton.prefab
+  artifactKey: Guid(56154a58844ccbb4f9f76a522d881895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Fast/hard skeleton.prefab using Guid(56154a58844ccbb4f9f76a522d881895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb3cdfd0294ec43930fe71c60aaa596') in 0.058961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.363301 seconds.
+  path: Assets/Enemies/Tough/hard troll.prefab
+  artifactKey: Guid(07de29ff2fe8ab74b80e135e6833f337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Tough/hard troll.prefab using Guid(07de29ff2fe8ab74b80e135e6833f337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65027e9f69589588f860e8e11fc0aa23') in 0.042876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046206 seconds.
+  path: Assets/Enemies/Simple/easy gobling.prefab
+  artifactKey: Guid(f66c6e81fed705a429d2314fa6db6c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Simple/easy gobling.prefab using Guid(f66c6e81fed705a429d2314fa6db6c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fefd2d3bf7ea3680083b00d669ed325') in 0.051227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.131297 seconds.
+  path: Assets/Enemies/Tough/easy troll.prefab
+  artifactKey: Guid(00df92373d350e241abf2d63cb846579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Tough/easy troll.prefab using Guid(00df92373d350e241abf2d63cb846579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc4e3f928c4aa293b7b47fe14a6e867') in 0.055008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3dmodels/ENV/texture/Street lamp_emesive.png
+  artifactKey: Guid(9f1db84c48b78074c87fdbcf98cd8c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dmodels/ENV/texture/Street lamp_emesive.png using Guid(9f1db84c48b78074c87fdbcf98cd8c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2bb125234d906994505bb126b072e6') in 0.019863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015560 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style7
+  artifactKey: Guid(180fba29aae833343b84a9e97a4e7fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style7 using Guid(180fba29aae833343b84a9e97a4e7fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de70eaa083fe1cde32abac1c8041786') in 0.011311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.394468 seconds.
+  path: Assets/GamedevDreamer/Scripts
+  artifactKey: Guid(17f216f80822cab4ca495141f8d3f9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Scripts using Guid(17f216f80822cab4ca495141f8d3f9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a62beb5ad82795685ad8126a8a55a5') in 0.013049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.126457 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style6/Style6JetEngine3.prefab
+  artifactKey: Guid(58ddb04432675dc4ea7f470c12c22a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style6/Style6JetEngine3.prefab using Guid(58ddb04432675dc4ea7f470c12c22a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c6ed3a7aee84d5b063596a8a151d70') in 0.022498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016928 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire stepped fade hdr ab.mat
+  artifactKey: Guid(e85fde2ff708fdf40ac2e97a57beea96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire stepped fade hdr ab.mat using Guid(e85fde2ff708fdf40ac2e97a57beea96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2388faf03602ab8d20d9a666f3539d') in 0.035312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.363072 seconds.
+  path: Assets/Enemies/Fast/Enemy_Fast.prefab
+  artifactKey: Guid(019275f64b969fd4699297cf9d51c36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Fast/Enemy_Fast.prefab using Guid(019275f64b969fd4699297cf9d51c36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af79ece29ebe354b22fa8ae1a236c4ff') in 0.051602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.119660 seconds.
+  path: Assets/3dmodels/ENV/texture/stone-4_diffuse 1.jpg
+  artifactKey: Guid(f5e6beac3442b8840a903bcd55165723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dmodels/ENV/texture/stone-4_diffuse 1.jpg using Guid(f5e6beac3442b8840a903bcd55165723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0543a9d709893dac6ac82f5399e127') in 0.025390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.045676 seconds.
+  path: Assets/3dmodels/ENV/texture/M_RoughRock02_normal 1.jpg
+  artifactKey: Guid(091042baa11e93a4385895a9178e711c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dmodels/ENV/texture/M_RoughRock02_normal 1.jpg using Guid(091042baa11e93a4385895a9178e711c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff652f2063e7dda8e691fca8be91ffef') in 0.022729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.205197 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style7/Style7JetEngine3.prefab
+  artifactKey: Guid(bf242fc2854147246adcfc2ef1cecd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style7/Style7JetEngine3.prefab using Guid(bf242fc2854147246adcfc2ef1cecd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1297be0c1a0d5b9e15f13854232e1eb4') in 0.022823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009031 seconds.
+  path: Assets/3dmodels/ENV/texture/stone-4_smooth 1.png
+  artifactKey: Guid(e0f84b25695573d4fb590e5a9b3ce1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dmodels/ENV/texture/stone-4_smooth 1.png using Guid(e0f84b25695573d4fb590e5a9b3ce1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d219e3714fd246b52435de5fda2dbd') in 0.028881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004137 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style4/Style4JetEngine4.prefab
+  artifactKey: Guid(2af83e86c565ff24f84f797027db3d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style4/Style4JetEngine4.prefab using Guid(2af83e86c565ff24f84f797027db3d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08946dd97599ed839e1c6cefab63029') in 0.022571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.271203 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style6/Style6JetEngine2.prefab
+  artifactKey: Guid(56273756be724bc40afeb0a9b2b213a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style6/Style6JetEngine2.prefab using Guid(56273756be724bc40afeb0a9b2b213a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92462196d65b707f136c793f07f4343a') in 0.024386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.385178 seconds.
+  path: Assets/3dmodels/ENV/texture/M_RoughRock03_normal 1.jpg
+  artifactKey: Guid(f68ec07f0e98c9943ae878d376757a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dmodels/ENV/texture/M_RoughRock03_normal 1.jpg using Guid(f68ec07f0e98c9943ae878d376757a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c948cc8b1bec10e17a1251d1b81bf0') in 0.022735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.099594 seconds.
+  path: Assets/GamedevDreamer/Scripts/Scroller.cs
+  artifactKey: Guid(5d3cebcfda4d5504b8bc505d6011817e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Scripts/Scroller.cs using Guid(5d3cebcfda4d5504b8bc505d6011817e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a0f70d8345d32ef03f0f315b4ce702') in 0.014253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046252 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style8/Style8JetEngine.prefab
+  artifactKey: Guid(2188efdda30a62549b8dec6b8f1e11c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style8/Style8JetEngine.prefab using Guid(2188efdda30a62549b8dec6b8f1e11c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac1b68310c948383f213910a7b1ec5a') in 0.025144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.508940 seconds.
+  path: Assets/GamedevDreamer/Scenes
+  artifactKey: Guid(f2dce9bf36ff6d641877dded79325384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Scenes using Guid(f2dce9bf36ff6d641877dded79325384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ee7379310b06153c54c9b812a76517') in 0.013751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.125606 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style3/Style3JetEngine.prefab
+  artifactKey: Guid(e118ed7542615ac46b4505200cca7021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style3/Style3JetEngine.prefab using Guid(e118ed7542615ac46b4505200cca7021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071ee8ce2874612da28b4cd2daf3be0b') in 0.023906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.331996 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style9/Style9JetEngine2.prefab
+  artifactKey: Guid(51fe36d63f8e7354588a474deca5652d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style9/Style9JetEngine2.prefab using Guid(51fe36d63f8e7354588a474deca5652d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10cf3168cf418718294692908863c848') in 0.021526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.110403 seconds.
+  path: Assets/GamedevDreamer/Sprites/SpaceCartoonishBG.png
+  artifactKey: Guid(c71d2c1f7bc37224182cde3bcbf3abd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Sprites/SpaceCartoonishBG.png using Guid(c71d2c1f7bc37224182cde3bcbf3abd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383f51ba652bb34778b674f1af361708') in 0.184640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010390 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style4
+  artifactKey: Guid(f1ed78b279e944a48bc8127644769bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style4 using Guid(f1ed78b279e944a48bc8127644769bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd406b4be9411a3c20adbb5c308d5a3') in 0.011051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.214773 seconds.
+  path: Assets/3dmodels/ENV/texture/Street lamp_01 1.png
+  artifactKey: Guid(5b629cb2aec20ff498a13b6367e93386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dmodels/ENV/texture/Street lamp_01 1.png using Guid(5b629cb2aec20ff498a13b6367e93386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbd64c9bc23c01eb134bc737a17e693') in 0.023850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031321 seconds.
+  path: Assets/3dmodels/ENV/texture/M_RoughRock01_normal 1.jpg
+  artifactKey: Guid(1b73e2a3897802a478c6d53871a5ecf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dmodels/ENV/texture/M_RoughRock01_normal 1.jpg using Guid(1b73e2a3897802a478c6d53871a5ecf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb838785a2650b02638fee3ba05b5cf') in 0.024372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055645 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style8/Style8JetEngine3.prefab
+  artifactKey: Guid(16429199b2047824c85672aa69c39a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style8/Style8JetEngine3.prefab using Guid(16429199b2047824c85672aa69c39a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e4a9ed77fdbec9d0b91746af325eba') in 0.026416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014701 seconds.
+  path: Assets/GamedevDreamer/Prefabs/Style4/Style4JetEngine3.prefab
+  artifactKey: Guid(1f4a983a66cc43842a372def08b9d021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GamedevDreamer/Prefabs/Style4/Style4JetEngine3.prefab using Guid(1f4a983a66cc43842a372def08b9d021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb853e24e60883fe08ebd2872fa05aba') in 0.023437 seconds 

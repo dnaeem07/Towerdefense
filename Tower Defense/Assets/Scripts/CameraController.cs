@@ -22,8 +22,7 @@ public float minz = 10f;
 			this.enabled = false;
 			return;
 		}
-		if(Input.GetMouseButton(0))
-	{
+	
 		if (Input.GetKey("w") || Input.mousePosition.y >= Screen.height - panBorderThickness)
 		{
             transform.Translate(Vector3.forward * panSpeed * Time.deltaTime, Space.World);
@@ -40,7 +39,7 @@ public float minz = 10f;
 		{
 			transform.Translate(Vector3.left * panSpeed * Time.deltaTime, Space.World);
 		}
-		}
+		
 		Vector3 pos = transform.position;
 		float scroll = Input.GetAxis("Mouse ScrollWheel");
 		 pos.z = Mathf.Clamp(pos.z, minz, maxz);

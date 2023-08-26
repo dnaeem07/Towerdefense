@@ -16,11 +16,12 @@ public class Node : MonoBehaviour {
 
 	private Renderer rend;
 	private Color startColor;
-
+	Animator anim;
 	BuildManager buildManager;
 
 	void Start ()
 	{
+		anim = GetComponentInParent<Animator>();
 		rend = GetComponent<Renderer>();
 		startColor = rend.material.color;
 
@@ -33,7 +34,14 @@ public class Node : MonoBehaviour {
 	}
 
 	void OnMouseDown ()
-	{
+	{if (MainMenu.tutorial == 0)
+		{
+			GameManager.instance.tutorialui.SetActive(false);
+			GameManager.instance.mode[0].SetActive(true);
+			PlayerPrefs.SetInt("tutorial",1);
+			PlayerPrefs.Save();
+			anim.Play("default");
+		}
 		if (EventSystem.current.IsPointerOverGameObject())
 			return;
 

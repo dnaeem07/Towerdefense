@@ -32,15 +32,21 @@ public class WaveSpawner : MonoBehaviour {
 
 		if (waveIndex == waves.Length)
 		{
-			gameManager.WinLevel();
-			this.enabled = false;
+			if (!GameManager.GameIsOver)
+			{
+				gameManager.WinLevel();
+				this.enabled = false;
+			}
 		}
 
 		if (countdown <= 0f)
 		{
-			StartCoroutine(SpawnWave());
-			countdown = timeBetweenWaves;
-			return;
+			if (!GameManager.GameIsOver)
+			{
+				StartCoroutine(SpawnWave());
+				countdown = timeBetweenWaves;
+				return;
+			}
 		}
 
 		countdown -= Time.deltaTime;
