@@ -7,7 +7,7 @@ Project Overview
 	The undead army have taken over most of the world only one kingdom is left which is why we must gather all the resources for weapons and towers in-order to fight back. Everyone willing to fight in the kingdom must come together to gather resources and build weapons to fight against the undead army as it is the last chance for human kind to fight back, we must protect our kingdom and fight till the end.
 
 # Gameplay
-MAIN MENU:
+# MAIN MENU:
 - At start of the game you will be introduced with a mini tutorial that gives you overview of the game.
 - Difficulty modes are there for you to choose at which difficulty level you would like to play
 - Shop button takes you to the shop, an intro is also added to help you understand the shop functionality better
@@ -25,7 +25,7 @@ MAIN MENU:
 - you can choose which unlocked level to play
 - In order to unlock next level, previous level must be completed,
   
-# TutoraL
+# Tutorial
 - A mini tutorial is added in gameplay to help you guide what to do at the start of the game
 - There is also an narrative panel in shop that Explans the importance of buying more towers.
 
