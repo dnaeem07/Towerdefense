@@ -2,61 +2,66 @@
 
 Project Overview
 	The project is made in Unity version:2021.3.6f1 (for a better experience please play it at 900x650 resolution).
-Summary:
+ 
+# Summary:
 	The undead army have taken over most of the world only one kingdom is left which is why we must gather all the resources for weapons and towers in-order to fight back. Everyone willing to fight in the kingdom must come together to gather resources and build weapons to fight against the undead army as it is the last chance for human kind to fight back, we must protect our kingdom and fight till the end.
 
-Gameplay
+# Gameplay
 MAIN MENU:
 - At start of the game you will be introduced with a mini tutorial that gives you overview of the game.
 - Difficulty modes are there for you to choose at which difficulty level you would like to play
 - Shop button takes you to the shop, an intro is also added to help you understand the shop functionality better
 - Settings panels helps you control some aspects of the game.
 
-Settings:
+# Settings:
 - you can control the volume of music and sound effect
 - you can also control the day night cycle for the game. 	
 
-Shop
+# Shop
 - you can buy more towers from the shop.
 
-Level selection:
+# Level selection:
 - Level locking and unlocking system is implemented,
 - you can choose which unlocked level to play
 - In order to unlock next level, previous level must be completed,
-TutoraL
+  
+# TutoraL
 - A mini tutorial is added in gameplay to help you guide what to do at the start of the game
 - There is also an narrative panel in shop that Explans the importance of buying more towers.
-Environment
+
+# Environment
 - A specific path is added to indicate the start and end points of the environment
 - At the end point there is castle that you would try to protect through out the gameplay
 - Turrets/nodes are added that helps user indicate where to place the towers
 - Each level environment has its own path
 - Each level has its own sets of nodes at the required positions.
-Coin system
+ 
+# Coin system
 - At start of game you have a specific amount of coins 
 - You can view the total amount of coins in shop, where you can buy more towers to play with.
 - At start of each level you would get a specific amount of coins that you would use to buy towers during the level gameplay and earn your way to buy more towers
 - You can earn coins by defeating enemies 
 - Each type of enemy gives different amount of coins
-- Whether you win or lose the level, the coins you obtain in that level will be added to you total coins
-life system
+- Whether you win or lose the level, the coins you obtain in that level will be added to you total coins life system.
 - At the start of each level you get specific amount of life count.
 - your life will be deducted whenever an enemy passes through your tower defence and gets inside the castle
 - if your life count is zero you would lose the level
 -if you defeat all the enemies before your life count hits zero you would win the level.
-Enemies
+
+# Enemies
 - there are three types of enemies.
 - Goblin: it walks at a normal speed, has a normal health and it is not tough to defeat.
 - skeleton: skeletons are easier to defeat but they are very fast which makes them harder to target. 
 - Troll: Trolls are usually slow but very tough to defeat.
-Tower
+
+# Tower
 - canon tower: canon tower shoots a single canon ball and hits a single target at a time, it has a normal range of shooting
 - Mortar tower: Mortar towers shoots a missile that will follow the enemy where it goes and when it lands, does area damage around the radius of 2, it has a longer range of shooting 
 - Laser tower: laser tower throws a laser and attaches the enemy as long as they’re in the range, it also slows down the enemy and has a long range of shooting.  
 
 References
 
-3d Models:
+# 3d Models:
 
 MEDIVAL FLAG: 
 https://www.shutterstock.com/search/medieval-flag
