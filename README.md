@@ -3,7 +3,7 @@
 Project Overview
 	The project is made in Unity version:2021.3.6f1 (for a better experience please play it at 900x650 resolution).
  
-# Summary:
+# Summary
 	The undead army have taken over most of the world only one kingdom is left which is why we must gather all the resources for weapons and towers in-order to fight back. Everyone willing to fight in the kingdom must come together to gather resources and build weapons to fight against the undead army as it is the last chance for human kind to fight back, we must protect our kingdom and fight till the end.
 
 # Gameplay
